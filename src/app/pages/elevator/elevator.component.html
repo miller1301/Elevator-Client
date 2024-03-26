@@ -1,0 +1,46 @@
+
+<div class="handle">
+    <div class="display">
+        <p>Piso Actual: {{ currentFloor }}</p>
+        <p>Piso Siguiente: {{ nextFloor }}</p>
+        <p>Lista de pisos: {{ listFloors }}</p>
+    </div>
+    <div class="buttons">
+        @for (floor of [1, 2, 3, 4, 5, 6, 7, 8]; track $index) {
+            <div class="btn-container floor">
+              <button (click)="requestElevator(floor)" class="btn-floor floor">{{ floor }}</button>
+            </div>
+        }
+    </div>
+  </div>
+  <div class="building">
+    <div class="elevator-container">
+      <div class="elevator">
+        <div class="elevator-door"></div>
+        <div class="elevator-light"></div>
+      </div>
+    </div>
+    <div class="floors">
+      <div class="floor" data-floor="0">
+        <div class="floor-door"></div>
+      </div>
+      <div class="floor" data-floor="1">
+        <div class="floor-window"></div>
+      </div>
+      <div class="floor" data-floor="2">
+        <div class="floor-window"></div>
+      </div>
+      <div class="floor" data-floor="3">
+        <div class="floor-window"></div>
+      </div>
+      <div class="floor" data-floor="4">
+        <div class="floor-window"></div>
+      </div>
+      <div class="floor" data-floor="5">
+        <div class="floor-window"></div>
+      </div>
+      <div class="floor" data-floor="6">
+        <div class="floor-window"></div>
+      </div>
+    </div>
+  </div>
