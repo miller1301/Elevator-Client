@@ -1,6 +1,6 @@
 # ElevatorClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+Este repositorio contiene una aplicación web desarrollada en Angular para controlar un ascensor. La aplicación consume un API Rest realizada en .Net
 
 ## Development server
 
