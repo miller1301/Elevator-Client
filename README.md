@@ -2,7 +2,7 @@
 
 Este repositorio contiene una aplicación web desarrollada en Angular para controlar un ascensor. La aplicación consume un API Rest realizada en .Net
 
-En este proyecto se encuentra la estructura del cliente, que se desarrolló en Angular 17. En la ruta de la carpeta \employeeClient ejecutar npm install, para obtener todos los paquetes requeridos para que el cliente funcione. En el cliente, se pueden realizar las operaciones CRUD y los demás puntos solicitados.
+En este proyecto se encuentra la estructura del cliente, que se desarrolló en Angular 17. En la ruta de la carpeta \elevator-client ejecutar npm install, para obtener todos los paquetes requeridos para que el cliente funcione.
 
 Para el consumo de la API desde el cliente se, utiliza HttpClient, ya que con este objeto se realizan solicitudes HTTP y se maneja la respuesta del servidor. El servicio HttpClient tiene la responsabilidad de implementar otras funcionalidades como interceptores y encabezados.
 
